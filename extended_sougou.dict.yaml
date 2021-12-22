@@ -1,0 +1,21 @@
+# rime extend dict from sougou
+---
+name: extended_sougou
+version: "2021.12.19"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+  - extended_dict/sougou_animal
+  - extended_dict/sougou_astronomy
+  - extended_dict/sougou_biology
+  - extended_dict/sougou_city_list
+  - extended_dict/sougou_law
+  - extended_dict/sougou_math
+  - extended_dict/sougou_medical
+  # - extended_dict/sougou_standard
+  - extended_dict/sougou_university_list
+  - extended_dict/moe
+  - extended_dict/wiki
+  # - extended_dict/thuocl_history_name
+...

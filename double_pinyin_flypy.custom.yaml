@@ -1,0 +1,19 @@
+patch:
+  engine/translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+    - table_translator@custom_phrase
+    - lua_translator@date_translator
+    # - table_translator
+  translator/dictionary: extended_sougou
+  __include: grammar:/hans
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  punctuator/import_preset: symbols
+  recognizer/patterns/punct: '^/([0-9]0?|[A-Za-z]+)$'
