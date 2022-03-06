@@ -6,7 +6,7 @@ patch:
     - table_translator@custom_phrase
     - lua_translator@date_translator
     # - table_translator
-  translator/dictionary: extended_sougou
+  # translator/dictionary: extended_sougou
   __include: grammar:/hans
   custom_phrase:
     dictionary: ""
